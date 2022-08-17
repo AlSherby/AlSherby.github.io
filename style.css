@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background: rgb(20, 20, 158);
+  border: 2px solid whitesmoke;
+  margin-top: 2rem;
+}
+
+.first {
+  border: 1px solid white;
+  margin-inline: 0.5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+.second {
+  border: 1px solid white;
+  margin-inline: 0.5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+.third {
+  border: 1px solid white;
+  margin-inline: 0.5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(194, 189, 189);
+  font-size: 5vmin;
+}
+.title h1 {
+  margin-bottom: 0;
+}
+
+.score-el {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10vmin;
+  margin-bottom: 0;
+  margin-top: 0%;
+}
+.container .display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0rem;
+  margin-top: 0;
+}
+
+.container #marg {
+  margin-left: 8rem;
+}
+
+.foul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(226, 224, 224);
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.head {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3rem;
+  color: red;
+  margin-bottom: 0%;
+}
+.score-foul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reset1 {
+  margin-inline: 2rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding-inline: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.reset2 {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding-inline: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-inline: 1.8rem;
+}
+
+.foul h2 {
+  margin-bottom: 0;
+  margin-top: 4%;
+  font-size: 2rem;
+}
+.score-el #el1 {
+  background-color: rgb(8, 8, 8);
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  color: red;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#el-2 {
+  background-color: rgb(8, 8, 8);
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 0%;
+  margin-bottom: 1rem;
+}
+#el-3 {
+  background-color: rgb(8, 8, 8);
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#el-4 {
+  background-color: rgb(8, 8, 8);
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  color: red;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ar {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.el2 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+.el3 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+.el4 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+.el5 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+.el6 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+#el7 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+.el8 {
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.qrtr h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+#qrtr-el {
+  color: red;
+  font-size: 4rem;
+  margin-top: 0;
+  background-color: black;
+  padding-inline: 0.8rem;
+  padding-top: 0.6rem;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+.br {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.btn-el {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+.btn .score-foul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn-el .raw {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+.btn-el .btne2 {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-inline: 0.6rem;
+  font-size: 1rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  .reset1 {
+    margin-inline: 4rem;
+    font-size: 2rem;
+  }
+  .ar,
+  .el2,
+  #el7,
+  .el8,
+  .el3,
+  .el4,
+  .el5,
+  .el6 {
+    font-size: 1.5rem;
+  }
+
+  .reset2 {
+    margin-inline: 4rem;
+    font-size: 2rem;
+  }
+  .el3 {
+    font-size: 1.5rem;
+  }
+  .el4 {
+    font-size: 1.5rem;
+  }
+  .el5 {
+    font-size: 1.5rem;
+  }
+  .el6 {
+    font-size: 1.5rem;
+  }
+  .br .raw {
+    font-size: 1.5rem;
+  }
+  .br .btne2 {
+    font-size: 1.5rem;
+  }
+  .foul h2 {
+    font-size: 5rem;
+  }
+  .title h1 {
+    font-size: 5rem;
+    margin-top: 1rem;
+  }
+  #el-4 {
+    font-size: 5rem;
+  }
+  #el-2 {
+    font-size: 5rem;
+  }
+  #el-3 {
+    font-size: 5rem;
+  }
+  #qrtr-el {
+    font-size: 5rem;
+  }
+  .score-el #el1 {
+    font-size: 5rem;
+  }
+  .score-el {
+    margin-bottom: 0.7rem;
+  }
+  .qrtr h1 {
+    font-size: 4rem;
+  }
+}
